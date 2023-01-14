@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex w-full flex-col justify-center items-center;
+  }
+  .contain {
+    @apply flex w-full max-w-[94%] 2xl:max-w-[1440px];
+  }
+  .headings {
+    @apply text-[34px] md:text-[52px] font-bold;
+  }
+  .subtitle {
+    @apply text-base md:text-lg font-normal;
+  }
+  .section-bg {
+    @apply bg-[#f9f2ee];
+  }
+  /* .nav {
+    @apply ;
+  } */
+  .btn-nav {
+    @apply rounded-full bg-black  hover:border-black border-[2px] hover:text-black duration-300 transition-all  text-white hover:bg-slate-50 text-sm sm:text-lg font-medium w-32 h-12 sm:w-52 sm:h-[50px];
+  }
+}
+
+@layer components {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
