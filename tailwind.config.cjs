@@ -9,7 +9,7 @@ module.exports = {
       colors: { // Defined colors
         darkBrown: "#C48A61",
         brown: "#CFA787",
-        lightBrown: "#DCC8B5",
+        lightBrown: "#F9F2EE",
 
       },
       backgroundImage: {
