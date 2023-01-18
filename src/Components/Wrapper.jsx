@@ -7,6 +7,7 @@ import Property from "../Pages/Property";
 import Refinancing from "../Pages/Refinancing";
 import Service from "../Pages/Service";
 import Work from "../Pages/Work";
+import { Data } from "../assets/Data";
 
 const Wrapper = () => {
   return (

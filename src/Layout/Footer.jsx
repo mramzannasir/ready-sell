@@ -87,7 +87,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col md:gap-0 gap-2 justify-between lg:px-[40px] pt-[20px] mt-[40px] w-full items-center border-t-[1px] border-solid border-white rounded-3xl">
+          <div className="flex md:flex-row flex-col md:gap-0 gap-2 justify-between lg:px-[40px] pt-[20px] mt-[40px] w-full items-center border-t-[1px] border-solid border-white">
             <p className="text-sm sm:text-lg text-white">
               © 2022 LIONSDEN REALTY All rights reserved.
             </p>
